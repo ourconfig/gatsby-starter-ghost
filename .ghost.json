@@ -1,10 +1,10 @@
 {
   "development": {
     "apiUrl": "https://lewardslope.ga",
-    "contentApiKey": "51341a74c03516c13bb6564fa8"
+    "contentApiKey": "8bd2d076e4e01c143396b7253f"
   },
   "production": {
     "apiUrl": "https://lewardslope.gao",
-    "contentApiKey": "51341a74c03516c13bb6564fa8"
+    "contentApiKey": "8bd2d076e4e01c143396b7253f"
   }
 }
