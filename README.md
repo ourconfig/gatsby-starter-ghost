@@ -1,85 +1,82 @@
-# Gatsby Starter Ghost
+# Liebling
 
-A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
+Liebling is a beautiful and clean Ghost theme that is easy and comfortable to use. **It's free** and you can use it for any kind of content you might have.
 
-**Demo:** https://gatsby.ghost.org
+If you use it and you like it, please consider to make a donation to support its development! 🙏🏼
 
-&nbsp;
+<a href="https://www.buymeacoffee.com/eddiesigner" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-![gatsby-starter-ghost](https://user-images.githubusercontent.com/120485/50913567-8ab8e380-142c-11e9-9e78-de02ded12fc6.jpg)
+## Preview
 
-&nbsp;
+You can see a live demo here: [https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
 
+![](https://res.cloudinary.com/edev/image/upload/v1557074150/liebling/liebling-promo-ipad.jpg)
+<br><br>
+![](https://res.cloudinary.com/edev/image/upload/v1557074150/liebling/liebling-promo-mobile.jpg)
 
-# Installing
+## Download
 
-```bash
-# With Gatsby CLI
-gatsby new gatsby-starter-ghost https://github.com/TryGhost/gatsby-starter-ghost.git
-```
+To download the latest version please head over the [releases page](https://github.com/eddiesigner/liebling/releases) and click on the zip link from the latest release.
 
-```bash
-# From Source
-git clone https://github.com/TryGhost/gatsby-starter-ghost.git
-cd gatsby-starter-ghost
-```
+## Features
 
-Then install dependencies
+### General features
 
-```bash
-yarn
-```
+* Clean and beautiful design 💅🏼
+* Lightning fast ⚡️
+* Fully responsive, looks great on any device 📱
+* Compatible with modern browsers 💻
+* Fast support 📞
 
-&nbsp;
+### Ghost features
 
-# Running
+* Subscription form
+* Multiple authors
+* Logo support
+* Featured posts and pages
+* Post, Page, Tag, Authors, pages
+* Koenig editor
+* Gallery card
+* Blog title and description
+* Cover image for Home, Post, Page, Tag, Author pages
+* Author avatar, bio, location, website and social links
+* Facebook and Twitter social links
+* Reading time
+* Next and Previous post navigation
+* Primary tag in posts
 
-Start the development server. You now have a Gatsby site pulling content from headless Ghost.
+### Liebling unique features
 
-```bash
-gatsby develop
-```
+* Search
+* Custom Subscribe page
+* Custom authors page
+* Custom error page
+* Medium style image zoom
+* Comments with Disqus
+* Share post on Facebook and Twitter
+* Slider for featured posts
+* Support for normal, wide and full images in posts
+* Reading progress indicator
 
-By default, the starter will populate content from a default Ghost install located at https://gatsby.ghost.io.
+## Theme tested
 
-To use your own install, edit the `.ghost.json` config file with your credentials. You can find your `contentApiKey` in the "Integrations" screen in Ghost Admin. The minimum required version for Ghost is `2.10.0` in order to use this starter without issues.
+* W3C Markup Validation: [Correct validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliebling.eduardogomez.io%2F)
+* Ghost GScan: [100/100 points](https://gscan.ghost.org/)
+* GTmetrix PageSpeed Score: **A (97%)**
+* PageSpeed Insights: **94/100** (mobile) **99/100** (desktop)
+* Pingdom Performance Grade: **A 91**
 
-&nbsp;
+## Help and Support
 
-# Deploying with Netlify
+To enable the search, comments, subscribers and so on, you must follow the steps found in the [Wiki](https://github.com/eddiesigner/liebling/wiki).
 
-The starter contains three config files specifically for deploying with Netlify. A `netlify.toml` file for build settings, a `/static/_headers` file with default security headers set for all routes, and `/static/_redirects` to set Netlify custom domain redirects.
+If you have any questions or troubles with this product, please feel free to open an issue [here](https://github.com/eddiesigner/liebling/issues).
 
-To deploy to your Netlify account, hit the button below.
+## License
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TryGhost/gatsby-starter-ghost)
+Copyright (c) 2018-2019 Eduardo Gómez. Released under the [MIT license](https://github.com/eddiesigner/liebling/blob/master/LICENSE).
 
-Content API Keys are generally not considered to be sensitive information, they exist so that they can be changed in the event of abuse; so most people commit it directly to their `.ghost.json` config file. If you prefer to keep this information out of your repository you can remove this config and set [Netlify ENV variables](https://www.netlify.com/docs/continuous-deployment/#build-environment-variables) for production builds instead.
+## Credits
 
-Once deployed, you can set up a [Ghost + Netlify Integration](https://docs.ghost.org/integrations/netlify/) to use deploy hooks from Ghost to trigger Netlify rebuilds. That way, any time data changes in Ghost, your site will rebuild on Netlify.
+All photos I used on this theme are from [Unsplash](https://unsplash.com)
 
-&nbsp;
-
-# Optimising
-
-You can disable the default Ghost Handlebars Theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
-
-&nbsp;
-
-# Extra options
-
-```bash
-# Run a production build, locally
-gatsby build
-
-# Serve a production build, locally
-gatsby serve
-```
-
-Gatsby `develop` uses the `development` config in `.ghost.json` - while Gatsby `build` uses the `production` config.
-
-&nbsp;
-
-# Copyright & License
-
-Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
